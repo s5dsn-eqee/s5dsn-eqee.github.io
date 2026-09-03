@@ -1,0 +1,88 @@
+baseURL: "https://s5dsn-eqee.github.io/"
+title: Dmitri B.
+theme: PaperMod
+locale: en-US
+timeZone: Europe/Amsterdam
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+
+minify:
+  disableXML: true
+
+pagination:
+  pagerSize: 10
+
+menu:
+  main:
+    - identifier: notes
+      name: notes
+      url: /notes/
+      weight: 10
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 20
+
+params:
+  env: production
+  mainSections:
+    - notes
+  description: "Personal site and blog of Dmitri B."
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  hideFooter: false
+
+  # About-style homepage, recent notes listed below
+  homeInfoParams:
+    Title: "About"
+    Content: |
+      Experienced data engineer with a bachelor's degree in mathematics.
+      I build data platforms and pipelines, and from time to time contribute
+      to open source. My favorite topics are **SQL generation** and
+      **DataFrame semantics**.
+
+      ### Open-source work
+
+      **DataFrame semantics**
+
+      - [Merged PRs in Apache DataFusion](https://github.com/apache/datafusion/pulls?q=is%3Apr+author%3As5dsn-eqee+is%3Amerged)
+      - [Merged PRs in datafusion-extra-functions](https://github.com/datafusion-contrib/datafusion-extra-functions/pulls?q=is%3Apr+author%3As5dsn-eqee+is%3Amerged)
+      - [narwhals-datafusion](https://github.com/s5dsn-eqee/narwhals-datafusion)
+
+      **SQL generation**
+
+      - [Merged PRs in datafusion-fuzzer](https://github.com/datafusion-contrib/datafusion-fuzzer/pulls?q=is%3Apr+author%3As5dsn-eqee+is%3Amerged)
+      - [Merged PRs in datafusion-sqlparser-rs](https://github.com/apache/datafusion-sqlparser-rs/pulls?q=is%3Apr+author%3As5dsn-eqee+is%3Amerged)
+
+      **Others**
+
+      - [Merged PRs in Polars](https://github.com/pola-rs/polars/pulls?q=is%3Apr+author%3As5dsn-eqee+is%3Amerged)
+      - [Merged PRs in ClickHouse-Native-JDBC](https://github.com/housepower/ClickHouse-Native-JDBC/pulls?q=is%3Apr+author%3As5dsn-eqee+is%3Amerged)
+      - [datafusion-extra-functions-ffi](https://github.com/s5dsn-eqee/datafusion-extra-functions-ffi)
+
+      **Ack**
+
+      - [DataFusion is the fastest single-node engine for querying Apache Parquet files](https://datafusion.apache.org/blog/2024/11/18/datafusion-fastest-single-node-parquet-clickbench/), from the DataFusion blog
+
+      ### Papers I love
+
+      - [Detecting Optimization Bugs in Database Engines via Non-Optimizing Reference Engine Construction](https://arxiv.org/abs/2007.08292) by Manuel Rigger and Zhendong Su
+      - [Towards Scalable Dataframe Systems](https://arxiv.org/abs/2001.00888) by Devin Petersohn et al.
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # required for search
