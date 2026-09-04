@@ -44,9 +44,12 @@ params:
     Title: "About"
     Content: |
       Experienced data engineer with a bachelor's degree in mathematics.
-      I build data platforms and pipelines, and from time to time contribute
-      to open source. My favorite topics are **SQL generation** and
-      **DataFrame semantics**.
+      I build data platforms, pipelines and admin databases. From time to time
+      I contribute to open source. My favorite topics are **SQL generation**
+      and **DataFrame semantics**.
+
+      I also have one small Pomeranian Spitz. Pushing him to do something he
+      does not want to is much harder than everything listed above.
 
       ### Open-source work
 
