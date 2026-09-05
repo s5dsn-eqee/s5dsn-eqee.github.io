@@ -38,8 +38,10 @@ params:
   ShowCodeCopyButtons: true
   ShowToc: true
   hideFooter: false
+  footer:
+    text: "[s5dsn-eqee.dev@proton.me](mailto:s5dsn-eqee.dev@proton.me) · [GitHub](https://github.com/s5dsn-eqee)"
 
-  # About-style homepage, recent notes listed below
+  # About-style homepage
   homeInfoParams:
     Title: "About"
     Content: |
@@ -51,13 +53,15 @@ params:
       I also have one small Pomeranian Spitz. Pushing him to do something he
       does not want to is much harder than everything listed above.
 
+      Reach me at [s5dsn-eqee.dev@proton.me](mailto:s5dsn-eqee.dev@proton.me) · [GitHub](https://github.com/s5dsn-eqee)
+
       ### Open-source work
 
       **DataFrame semantics**
 
+      - [narwhals-datafusion](https://github.com/s5dsn-eqee/narwhals-datafusion)
       - [Merged PRs in Apache DataFusion](https://github.com/apache/datafusion/pulls?q=is%3Apr+author%3As5dsn-eqee+is%3Amerged)
       - [Merged PRs in datafusion-extra-functions](https://github.com/datafusion-contrib/datafusion-extra-functions/pulls?q=is%3Apr+author%3As5dsn-eqee+is%3Amerged)
-      - [narwhals-datafusion](https://github.com/s5dsn-eqee/narwhals-datafusion)
 
       **SQL generation**
 
@@ -69,10 +73,6 @@ params:
       - [Merged PRs in Polars](https://github.com/pola-rs/polars/pulls?q=is%3Apr+author%3As5dsn-eqee+is%3Amerged)
       - [Merged PRs in ClickHouse-Native-JDBC](https://github.com/housepower/ClickHouse-Native-JDBC/pulls?q=is%3Apr+author%3As5dsn-eqee+is%3Amerged)
       - [datafusion-extra-functions-ffi](https://github.com/s5dsn-eqee/datafusion-extra-functions-ffi)
-
-      **Ack**
-
-      - [DataFusion is the fastest single-node engine for querying Apache Parquet files](https://datafusion.apache.org/blog/2024/11/18/datafusion-fastest-single-node-parquet-clickbench/), from the DataFusion blog
 
       ### Papers I love
 
