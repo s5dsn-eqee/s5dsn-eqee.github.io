@@ -39,7 +39,7 @@ params:
   ShowToc: true
   hideFooter: false
   footer:
-    text: "[s5dsn-eqee.dev@proton.me](mailto:s5dsn-eqee.dev@proton.me) · [GitHub](https://github.com/s5dsn-eqee)"
+    text: "[s5dsn-eqee.dev@proton.me](mailto:s5dsn-eqee.dev@proton.me) · [GitHub](https://github.com/s5dsn-eqee) · [LinkedIn](https://www.linkedin.com/in/dmitriibugakov/)"
 
   # About-style homepage
   homeInfoParams:
@@ -53,7 +53,7 @@ params:
       I also have one small Pomeranian Spitz. Pushing him to do something he
       does not want to is much harder than everything listed above.
 
-      Reach me at [s5dsn-eqee.dev@proton.me](mailto:s5dsn-eqee.dev@proton.me) · [GitHub](https://github.com/s5dsn-eqee)
+      Reach me at [s5dsn-eqee.dev@proton.me](mailto:s5dsn-eqee.dev@proton.me) · [GitHub](https://github.com/s5dsn-eqee) · [LinkedIn](https://www.linkedin.com/in/dmitriibugakov/)
 
       ### Open-source work
 
