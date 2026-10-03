@@ -62,6 +62,7 @@ params:
       - [narwhals-datafusion](https://github.com/s5dsn-eqee/narwhals-datafusion), the Apache DataFusion backend for [Narwhals](https://narwhals-dev.github.io/narwhals/)
       - [Merged PRs in Apache DataFusion](https://github.com/apache/datafusion/pulls?q=is%3Apr+author%3As5dsn-eqee+is%3Amerged)
       - [Merged PRs in datafusion-extra-functions](https://github.com/datafusion-contrib/datafusion-extra-functions/pulls?q=is%3Apr+author%3As5dsn-eqee+is%3Amerged)
+      - [Merged PRs in Sail](https://github.com/lakehq/sail/pulls?q=is%3Apr+author%3As5dsn-eqee+is%3Amerged)
 
       **SQL generation**
 
