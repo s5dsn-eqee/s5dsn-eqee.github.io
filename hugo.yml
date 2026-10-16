@@ -72,6 +72,7 @@ params:
       **Others**
 
       - [Merged PRs in Polars](https://github.com/pola-rs/polars/pulls?q=is%3Apr+author%3As5dsn-eqee+is%3Amerged)
+      - [Merged PRs in pandera](https://github.com/unionai-oss/pandera/pulls?q=is%3Apr+author%3As5dsn-eqee+is%3Amerged)
       - [Merged PRs in ClickHouse-Native-JDBC](https://github.com/housepower/ClickHouse-Native-JDBC/pulls?q=is%3Apr+author%3As5dsn-eqee+is%3Amerged)
       - [datafusion-extra-functions-ffi](https://github.com/s5dsn-eqee/datafusion-extra-functions-ffi)
 
